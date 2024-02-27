@@ -1,0 +1,8 @@
+server:
+  port: 8083
+hm:
+  db:
+    database: hm-item
+  swagger:
+    title: 商品购物车接口文档
+    package: com.hmall.item.controller

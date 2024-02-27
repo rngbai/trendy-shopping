@@ -1,0 +1,14 @@
+server:
+  port: 8082
+hm:
+  db:
+    database: hm-cart
+  swagger:
+    title: 购物车接口文档
+    package: com.hmall.cart.controller
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true
